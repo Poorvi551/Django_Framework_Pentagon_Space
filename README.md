@@ -2,7 +2,8 @@
 
 Table of Contents :
 
-1.[Django](./Django)
+1. [Django](./Django)
+2. [MVT Architecture](./MVT-Architecture)
 
 # Django 
 

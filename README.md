@@ -53,3 +53,18 @@ Table of Contents :
 </table>
 
 ## MVT Architecture
+
+* **MVT -** Stands fo *Model View Template*.
+* Model - refers to *database*
+* View - refers to *logics or backend*
+* Template - refers to *frontend*
+
+### * Model :-
+
+* Model Represents the database structure and data logic.
+* It defines *table*.
+* It defines *Fields* (columns in SQL).
+* It communicates with database.
+* It handles CRUD operations.
+
+### * Views :- 

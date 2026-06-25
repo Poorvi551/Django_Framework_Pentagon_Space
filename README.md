@@ -20,7 +20,7 @@ Table of Contents :
 * Django name came from famous Jazz guitarist named Django Reinhardt who was the favourite musician of Adrian and Simon.
 * News Company (Lawrence Journal world (US)).
 
-### * **Framework :-*
+### * **Framework :-**
 
 * **Framework :-** Framework is a ready made set of tools, functions and rules. It helps to develop applications faster and better without starting from scratch.
 * Framework allows us to focus on logics, it will take care of the basic configurations(Database connectivity and security).

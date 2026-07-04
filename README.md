@@ -34,22 +34,22 @@ Table of Contents :
 * Difference between Django and Flask :-
 
 <table>
-  <tr>
-    <td>Django</td>
-    <td>Full Stack web Framework</td>
-    <td>More built-in tools</td>
-    <td>Used to build Complex applications</td>
-    <td>Built-in admin panel</td>
-    <td>Django supprts dynamic HTML</td>
-  </tr>
-  <tr>
-    <td>Flask</td>
-    <td>Micro web Framework</td>
-    <td>Few built-in tools</td>
-    <td>Used for building medium sized applications</td>
-    <td>No Built-in admin panel</td>
-    <td>No dynamic HTML support</td>
-  </tr>
+  <td>
+    <tr>Django</tr>
+    <tr>Full Stack web Framework</tr>
+    <tr>More built-in tools</tr>
+    <tr>Used to build Complex applications</tr>
+    <tr>Built-in admin panel</tr>
+    <tr>Django supprts dynamic HTML</tr>
+  </td>
+  <td>
+    <tr>Flask</tr>
+    <tr>Micro web Framework</tr>
+    <tr>Few built-in tools</tr>
+    <tr>Used for building medium sized applications</tr>
+    <tr>No Built-in admin panel</tr>
+    <tr>No dynamic HTML support</tr>
+  </td>
 </table>
 
 ## MVT Architecture

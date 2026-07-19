@@ -36,18 +36,26 @@ Table of Contents :
 <table>
   <tr>
     <td>Django</td>
-    <td>Full Stack web Framework</td>
-    <td>More built-in tools</td>
-    <td>Used to build Complex applications</td>
-    <td>Built-in admin panel</td>
-    <td>Django supprts dynamic HTML</td>
+    <td>Flask</td>
   </tr>
   <tr>
-    <td>Flask</td>
+    <td>Full Stack web Framework</td>
     <td>Micro web Framework</td>
+  </tr>
+  <tr>
     <td>Few built-in tools</td>
+    <td>More built-in tools</td>
+  </tr>
+  <tr>
+    <td>Used to build Complex applications</td>
     <td>Used for building medium sized applications</td>
+  </tr>
+  <tr>
+    <td>Built-in admin panel</td>
     <td>No Built-in admin panel</td>
+  </tr>
+  <tr>
+    <td>Django supprts dynamic HTML</td>
     <td>No dynamic HTML support</td>
   </tr>
 </table>

@@ -92,8 +92,11 @@ Table of Contents :
 
 cmd >>
   >> python -m venv test
+
   >> test\scripts\activate
+
   >> pip install django
+
   >> django-admin --version
 
 * Creation of Project

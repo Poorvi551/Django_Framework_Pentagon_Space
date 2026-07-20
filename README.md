@@ -99,7 +99,9 @@ cmd >>
 * Creation of Project
 
   >> django-admin startproject first-project
+  
   >> cd first-project
+  
   >> python manage.py startapp facebook
 
 * Run Server:-

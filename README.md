@@ -76,3 +76,71 @@ Table of Contents :
 * It handles CRUD operations.
 
 ### * Views :- 
+
+* View is a business logic layer.
+* It handles requests
+* It Takes Request from the user, &process, &it returns Response to the user.
+* It communicates with model.
+* It sends data to the frontend(Template).
+
+### * Template :-
+
+* Template is a presentation layer(HTML).
+* It display the data and handles UI.
+
+* Creation of Django folder
+
+cmd >>
+  >> python -m venv test
+  >> test\scripts\activate
+  >> pip install django
+  >> django-admin --version
+
+* Creation of Project
+
+  >> django-admin startproject first-project
+  >> cd first-project
+  >> python manage.py startapp facebook
+
+* Run Server:-
+
+  >> python manage.py runserver
+
+* Request Response Cycle :-
+
+* Request Response Cycle is a process where client sends a request to the server, Django will process it and returns response.
+* Types of Request:
+
+  1. GET - To retrieve Data
+  2. POST - Creating a new Data
+  3. PUT - To update existing Data
+  4. PATCH - To update Partially
+  5. DELETE - To delete existing Data.
+
+* Types of Response :
+
+  1. HTTP Response -> It return a plain Text
+  2. Render -> It return a HTML Page
+  3. Redirect -> It redirects user to different pages.
+  4. JSON Response -> It returns JSON Data(useful for APIs)
+ 
+* Returning HTTP Response :-
+
+  views.py
+
+      from django.http import HttpResponse
+      def home(request):
+          return HttpResponse("Welcome to Home page")
+      def about(request):
+          return HttpResponse("This is about page")
+
+  urls.py
+
+      from django.urls import path
+      from facebook.views import home,about
+      urlpatterns=[
+          path('admin/',admin.site.urls),
+          path('home/',home),
+          path('about/',about)
+      ]
+  
